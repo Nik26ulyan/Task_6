@@ -1,9 +1,12 @@
 package ru.vsu.sc.uliyanov_n_s;
 
 import java.util.Scanner;
+import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.ROOT);
+
         double x = readNumber("X", true);
         int n = (int) readNumber("sequence member number", false);
         double e = readNumber("epsilon", false);
