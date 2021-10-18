@@ -77,6 +77,6 @@ public class Main {
         System.out.println("The sum of the terms of the sequence is equal to " + sum);
         System.out.println("The sum of the terms of the sequence that are greater than E is equal to " + sumWithEpsilon);
         System.out.println("The sum of the terms of the sequence that are greater than E divided by 10 is equal to " + sumWithEpsilonDividedBy10);
-        System.out.println("Еhe value of the function is " + meaning);
+        System.out.println("The value of the function is " + meaning);
     }
 }
