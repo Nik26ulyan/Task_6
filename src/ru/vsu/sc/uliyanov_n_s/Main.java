@@ -30,6 +30,9 @@ public class Main {
             if (Math.abs(num) > 1 && x) {
                 System.out.println("Invalid value! Yoy need to enter a number in the range from -1 to 1! Try again.");
                 return readNumber(text, true);
+            } else if (num < 0 && !x) {
+                System.out.println("This number cannot be less than zero");
+                return readNumber(text, false);
             }
         } else if (x) {
             System.out.println("Invalid value! Yoy need to enter a NUMBER! Try again.");
